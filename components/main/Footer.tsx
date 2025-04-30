@@ -7,7 +7,7 @@ import { MdEmail } from "react-icons/md";
 
 const Footer = () => {
   return (
-    <footer className="w-full bg-black/30 text-gray-200 shadow-lg px-4 py-6 backdrop-blur-lg z-10 relative">
+    <footer className="w-full bg-black/30 text-gray-200 shadow-lg px-4 py-6 backdrop-blur-lg z-50 relative">
       <div className="max-w-6xl mx-auto flex flex-col items-center justify-center">
         <div className="w-full flex flex-col md:flex-row justify-around gap-8 flex-wrap">
           
@@ -15,7 +15,7 @@ const Footer = () => {
           <div className="min-w-[200px] flex flex-col items-start">
             <h2 className="font-bold text-[16px] mb-2">Connect</h2>
             <a
-              href="https://github.com/sauravkumar"
+              href="https://github.com/saurav7557"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center mb-3 hover:text-purple-400 transition-colors"
@@ -24,7 +24,7 @@ const Footer = () => {
               <span className="ml-2 text-[15px]">GitHub</span>
             </a>
             <a
-              href="https://linkedin.com/in/sauravkumar"
+              href="www.linkedin.com/in/saurav-kumar-88b8a4256"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center mb-3 hover:text-purple-400 transition-colors"
@@ -33,7 +33,7 @@ const Footer = () => {
               <span className="ml-2 text-[15px]">LinkedIn</span>
             </a>
             <a
-              href="https://sauravkumar-portfolio.com"
+              href="https://my-portfolio-beige-xi-96.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center mb-3 hover:text-purple-400 transition-colors"

@@ -12,26 +12,27 @@ const Projects = () => {
       </h1>
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
         <ProjectCard
-          src="/ip-protection.png"
+          src="/securerights.png"
           title="IP Protection System"
           description="AI-powered system detecting Disney's intellectual property on YouTube in real-time using YOLOv5, TensorFlow, and OpenCV with advanced video and audio analysis."
           technologies={["YOLOv5", "TensorFlow", "OpenCV", "Python"]}
-          githubLink="https://github.com/sauravkumar/ip-protection"
-          demoLink="https://ip-protection-demo.com"
+          githubLink="https://github.com/sktigpta/Gdg-Solution-Challenge"
+          demoLink="https://securerights.app"
         />
         <ProjectCard
-          src="/blockchain-certificate.png"
+          src="/Blockchain Certificates.png"
           title="Blockchain Certificate System"
           description="Decentralized app for issuing and validating certificates on Ethereum blockchain with Solidity smart contracts and QR code support for seamless certificate validation."
           technologies={["Solidity", "React.js", "Node.js", "IPFS"]}
-          githubLink="https://github.com/sauravkumar/blockchain-certificates"
+          githubLink="https://github.com/saurav7557/Hackindia-Spark-4-2025-Tech-No-Logic"
+          demoLink="https://certificate-frontend-three.vercel.app/"
         />
         <ProjectCard
-          src="/rentblee.png"
+          src="/Screenshot 2025-04-30 223824.png"
           title="RentBlee - Rental Platform"
           description="E-commerce rental platform allowing users to rent and vendors to list items with JWT authentication, responsive UI and backend inventory management."
           technologies={["React", "Node.js", "Express", "MongoDB"]}
-          githubLink="https://github.com/sauravkumar/rentblee"
+          githubLink="https://github.com/saurav7557/rentblee_frontend"
         />
       </div>
     </div>
