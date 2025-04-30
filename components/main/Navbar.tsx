@@ -17,7 +17,6 @@ const Navbar = () => {
             height={70}
             className="cursor-pointer hover:animate-slowspin"
           />
-
           <span className="font-bold ml-[10px] hidden md:block text-gray-300">
             Saurav Kumar
           </span>
@@ -40,8 +39,8 @@ const Navbar = () => {
         <div className="flex flex-row gap-5">
           {Socials.map((social) => (
             <a 
-              href={social.link || "#"} 
               key={social.name}
+              href={social.link || "#"} 
               target="_blank" 
               rel="noopener noreferrer"
             >

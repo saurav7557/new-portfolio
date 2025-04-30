@@ -82,21 +82,22 @@ export const Skill_data = [
   
   export const Socials = [
     {
-      name: "Discord",
-      src: "/instagram.svg",
+      name: "GitHub",
+      src: "/github.svg",
+      link: "https://github.com/saurav7557",
     },
     {
-      name: "Facebook",
-      src: "/facebook.svg",
+      name: "LinkedIn",
+      src: "/linkedin.svg",
+      link: "https://linkedin.com/in/saurav7557",
     },
     {
       name: "Instagram",
-      src: "/discord.svg",
+      src: "/instagram.svg",
+      link: "https://instagram.com/ig_stonyy",
     },
   ];
-  
-  
-  
+   
   export const Frontend_skill = [
     {
       skill_name: "Html 5",
